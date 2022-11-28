@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/item_bg"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp">
+
+        <View
+            android:id="@+id/centervertical"
+            android:layout_width="0dp"
+            android:layout_height="1dp"
+            android:layout_centerHorizontal="true" />
+
+        <TextView
+            android:id="@+id/time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="5dp"
+            android:gravity="center"
+            android:text=""
+            android:textColor="@color/darkGrey"
+            android:textSize="15dp" />
+
+        <TextView
+            android:id="@+id/timexv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="5dp"
+            android:gravity="center"
+            android:text=""
+            android:textColor="@color/darkGrey"
+            android:textSize="15dp" />
+
+        <View
+            android:id="@+id/spacer"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_below="@+id/time"
+            android:background="@color/colorGrayA" />
+
+        <LinearLayout
+            android:id="@+id/llvv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/spacer"
+            android:orientation="horizontal">
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1">
+
+                <TextView
+                    android:id="@+id/sysheader"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:gravity="center"
+                    android:text="@string/sysAAA"
+                    android:textColor="@color/darkGrey"
+                    android:textSize="15dp" />
+
+                <TextView
+                    android:id="@+id/sysVal"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/sysheader"
+                    android:layout_centerHorizontal="true"
+                    android:gravity="center"
+                    android:text="128"
+                    android:textColor="@color/darkGrey"
+                    android:textSize="25dp" />
+
+                <TextView
+                    android:id="@+id/mmhgVa"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/sysVal"
+                    android:layout_centerHorizontal="true"
+                    android:gravity="center"
+                    android:text="@string/mmhgv"
+                    android:textColor="@color/lightGrey"
+                    android:textSize="12dp" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1">
+
+                <TextView
+                    android:id="@+id/diaheader"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:gravity="center"
+                    android:text="@string/diaAAA"
+                    android:textColor="@color/darkGrey"
+                    android:textSize="15dp" />
+
+                <TextView
+                    android:id="@+id/diaVal"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/diaheader"
+                    android:layout_centerHorizontal="true"
+                    android:gravity="center"
+                    android:text="80"
+                    android:textColor="@color/darkGrey"
+                    android:textSize="25dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/diaVal"
+                    android:layout_centerHorizontal="true"
+                    android:gravity="center"
+                    android:text="@string/mmhgv"
+                    android:textColor="@color/lightGrey"
+                    android:textSize="12dp" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1">
+
+                <TextView
+                    android:id="@+id/pulheader"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:gravity="center"
+                    android:text="@string/pulAAA"
+                    android:textColor="@color/darkGrey"
+                    android:textSize="15dp" />
+
+                <TextView
+                    android:id="@+id/pulVal"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/pulheader"
+                    android:layout_centerHorizontal="true"
+                    android:gravity="center"
+                    android:text="60"
+                    android:textColor="@color/darkGrey"
+                    android:textSize="25dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/pulVal"
+                    android:layout_centerHorizontal="true"
+                    android:gravity="center"
+                    android:text="@string/minv"
+                    android:textColor="@color/lightGrey"
+                    android:textSize="12dp" />
+            </RelativeLayout>
+        </LinearLayout>
+
+        <View
+            android:id="@+id/heightsp"
+            android:layout_width="match_parent"
+            android:layout_height="5dp"
+            android:layout_below="@+id/llvv" />
+
+        <RelativeLayout
+            android:id="@+id/tagcontent"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/heightsp"
+            android:visibility="gone">
+
+            <View
+                android:id="@+id/spacerv"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/colorGrayA" />
+
+            <LinearLayout
+                android:id="@+id/tagcontentpart"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:orientation="horizontal" />
+
+            <View
+                android:id="@+id/heightspv"
+                android:layout_width="1dp"
+                android:layout_height="5dp"
+                android:layout_below="@+id/tagcontentpart" />
+        </RelativeLayout>
+    </RelativeLayout>
+</RelativeLayout>

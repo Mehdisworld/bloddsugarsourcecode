@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "40605317",
+    "firebase_url": "https://mxviyer-c3f4e.firebaseio.com",
+    "project_id": "mxvideoplayer-4e",
+    "storage_bucket": "mxvideoplayer-c3f4.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:406053177159:andrefc0284500cdc58ae62",
+        "android_client_info": {
+          "package_name": "com.example.bloodpressurediary"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "406053177159-fjtui4j5icjfe6e9vntf.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.mxtecyer.ad.pro",
+            "certificate_hash": "5ea9a179853d3b4991ad23c03c158"
+          }
+        },
+        {
+          "client_id": "406053177159-1tfcab3obhh85qoj8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAYs53gtMCjTnuxRK3VARS71s"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "406053177159-1tfcab3obhb09u8fl7c82s12dh85qojgoogleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

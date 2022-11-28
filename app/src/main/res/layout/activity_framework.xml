@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/BackgroundColor"
+    android:keepScreenOn="true"
+    android:orientation="vertical">
+
+
+    <LinearLayout
+        android:id="@+id/buttonbar"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/btn_start"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/btn_share"
+            android:layout_margin="10dp"
+            android:background="@drawable/button_gre"
+            android:text="@string/btn_start"
+            android:textColor="@color/white"
+            android:textSize="20sp"
+            android:onClick="@+id/btn_start"
+            />
+
+        <Button
+            android:id="@+id/btn_share"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:background="@drawable/button"
+            android:text="@string/btn_share"
+            android:textColor="@color/darkGrey"
+            android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/btnRateus"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:background="@drawable/button"
+            android:text="@string/btn_rateus"
+            android:textColor="@color/darkGrey"
+            android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/btnPolicy"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:background="@drawable/button"
+            android:text="@string/btn_policy"
+            android:textColor="@color/darkGrey"
+            android:textSize="20sp" />
+
+    </LinearLayout>
+
+
+
+
+
+    <RelativeLayout
+        android:id="@+id/adLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="5dp"
+        android:background="@color/colorPrimary"
+        android:orientation="vertical" />
+
+
+</LinearLayout>

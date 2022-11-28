@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#090713</color>
+    <color name="colorPrimaryDark">#090713</color>
+    <color name="colorAccent">#012037</color>
+
+
+    <color name="darkGrey">#323232</color>
+    <color name="colorGrra">#555555</color>
+    <color name="lightGrey">#818181</color>
+    <color name="coloreqw">#353535</color>
+    <color name="colorGrayA">#d7d7d7</color>
+    <color name="colorGA">#fdfdfd</color>
+    <color name="colorTrda">#cc707070</color>
+    <color name="colorBackground">#eaeaea</color>
+    <color name="colorboa">#57a047</color>
+    <color name="colorBlueA">#1a67ba</color>
+    <color name="colorBTA">#353535</color>
+    <color name="colorGAa">#f3f3f3</color>
+    <color name="colorSys">#26d053</color>
+    <color name="colorWhite">#ffffff</color>
+    <color name="colorPulse">#237cf4</color>
+    <color name="colorDarkA">#454545</color>
+    <color name="colorDia">#FB5062</color>
+<!--    <color name="colorDia">#FEAE21</color>-->
+    <color name="colorYelloww">#f2be0b</color>
+    <color name="colorSysAA">#3026d053</color>
+    <color name="colorPulseAA">#30237cf4</color>
+    <color name="colorDiaAA">#30f41465</color>
+    <color name="colorGrraa">#777777</color>
+    <color name="colorGreen">#6fcd5a</color>
+    <color name="colorGAb">#d7d7d7</color>
+    <color name="colorBlue">#5c98e3</color>
+    <color name="colorRed">#dd6d6d</color>
+    <color name="colorBlackTr">#E6000000</color>
+    <color name="colorbbbo">#b91173</color>
+    <color name="colorbbboa">#910d5a</color>
+    <color name="colorbo">#6fcd5a</color>
+    <color name="colorbbo">#f2be0b</color>
+    <color name="colorbboa">#cca00a</color>
+
+<!--    <color name="BackgroundColor">#14202C</color>-->
+<!--    <color name="BackgroundColor">#112347</color>-->
+    <color name="BackgroundColor">#090713</color>
+<!--    <color name="BackgroundColor">#232323</color>-->
+    <color name="darkBackgroundColor">#0D151C</color>
+    <color name="splashBG">#00173E</color>
+    <color name="white">#FFFFFF</color>
+    <color name="themeColor">#2F9195</color>
+    <color name="pink">#FB0047</color>
+    <color name="yellowSYS">#FEAE21</color>
+    <color name="progress3">#0FC5F7</color>
+
+    <color name="flot1">#FB5062</color>
+    <color name="flotDark1">#D53445</color>
+
+    <color name="flot2">#FEAE21</color>
+    <color name="flotDark2">#EC9D11</color>
+
+    <color name="flot3">#26566d</color>
+    <color name="flotDark3">#012037</color>
+
+    <color name="themeColor1">#FF4F63</color>
+    <color name="themeColor2">#F50BA0</color>
+    <color name="themeColor3">#1891FA</color>
+    <color name="themeColor4">#27E6FF</color>
+    <color name="themeColor5">#FAB826</color>
+    <color name="themeColor6">#FE5301</color>
+
+
+</resources>
